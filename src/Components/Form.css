@@ -1,0 +1,29 @@
+/*Form 컴포넌트의 input 태그와 button 태그, 그리고 이 두 태그를 감싸는 태그 까지의 style 을 꾸며 줄 파일*/
+
+.form {
+    display: flex;
+  }
+  
+  .form input {
+    flex: 1; /* 버튼을 뺀 빈 공간을 모두 채워줍니다 */
+    font-size: 1.2rem;
+    outline: 0.5px solid #cfcfcf;
+    border: none;
+    padding: 0.5rem;
+  }
+  
+  .create-button {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 0.5rem;
+    background: #aa2e2e;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .create-button:hover {
+    background: #e47671;
+  }

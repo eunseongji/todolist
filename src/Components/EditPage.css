@@ -1,0 +1,54 @@
+.edit-template {
+    background: white;
+    width: 512px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); /* 그림자 */ 
+    margin: 0 auto; /* 페이지 중앙 정렬 */
+    margin-top: 4rem;
+  }
+
+  .edit-form-wrapper {
+    padding: 1rem;
+  }
+
+  .edit-title {
+    padding: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 1000;
+    background: #aa2e2e;
+    color: white;
+  }
+
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title-input {
+    font-size: 1.25rem;
+    outline: 1.5px solid #aa2e2e;
+    border: none;
+    padding: 0.5rem;
+  }
+
+  .content-input{
+    margin-top: 1rem;
+    height: 300px;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    outline: 1.5px solid #aa2e2e;
+    border: none;
+  } 
+
+  .confirm-button {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+    background: #aa2e2e;
+    color: white;
+    font-weight: 550;
+    cursor: pointer;
+    align-self: center;
+  }
